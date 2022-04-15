@@ -1,0 +1,76 @@
+:root {
+  --global-color-0: #075aae;
+  --global-color-1: #067ae0;
+  --global-color-2: #f4f6f6;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.work .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1080px;
+  width: 100%;
+  gap: 40px;
+}
+
+.work > .container > h2 {
+  font-size: 40px;
+}
+
+.work > .container > p {
+  max-width: 510px;
+  text-align: center;
+}
+
+.work .item-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.work .item {
+  background: var(--global-color-0);
+  display: flex;
+  flex-direction: column;
+  padding: 70px 50px;
+  gap: 40px;
+  color: white;
+}
+
+.work .item hr {
+  width: 3rem;
+  border: 1px solid var(--global-color-1);
+}
+
+.work .item h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.work .item p {
+  text-align: left;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+}
+
+.work .item a {
+  width: fit-content;
+  padding: 1rem 2rem;
+  border: 1px solid white;
+  color: white;
+}
+
+@media screen and (max-width: 770px) {
+  .work .item-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

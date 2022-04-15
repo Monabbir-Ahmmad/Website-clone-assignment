@@ -1,0 +1,40 @@
+:root {
+  --global-color-0: #075aae;
+  --global-color-1: #067ae0;
+  --global-color-2: #f4f6f6;
+}
+
+.featured-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 1em;
+  background: var(--global-color-2);
+}
+
+.featured-in h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.featured-in div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+  margin: 2em;
+}
+
+@media screen and (max-width: 950px) {
+  .featured-in div {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .featured-in div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
