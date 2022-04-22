@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   background: var(--global-color-2);
-  padding: 8vmax 16px;
+  padding: 8vmax 20px;
 }
 
 .story .wrapper {
@@ -52,6 +52,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .story {
+    padding: 20px;
+  }
+
   .story .wrapper {
     flex-direction: column-reverse;
   }

@@ -21,16 +21,20 @@
   gap: 1.8rem;
 }
 
+.work > .container > h2 {
+  margin-top: 1rem;
+}
+
 .work > .container > p {
   max-width: 510px;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .work .item-container {
   width: 100%;
   display: flex;
   gap: 1.8rem;
-  margin-top: 1.5rem;
 }
 
 .work .item {
@@ -100,6 +104,10 @@
 }
 
 @media screen and (max-width: 770px) {
+  .work {
+    padding: 20px;
+  }
+
   .work .item-container,
   .work .service-item-wrapper,
   .work .service-container {
