@@ -3,6 +3,7 @@
   --global-color-1: #067ae0;
   --global-color-2: #f4f6f6;
 }
+
 .intro {
   background-image: url(https://websitedemos.net/coach-02/wp-content/uploads/sites/171/2018/02/hero-free-img.jpg);
   background-position: top right;
@@ -50,11 +51,6 @@
   max-width: 480px;
 }
 
-.intro .container > h1 {
-  font-size: 7vmin;
-  font-weight: 500;
-}
-
 .intro-btn-container {
   display: flex;
   align-items: flex-start;
@@ -74,12 +70,6 @@
 .intro-btn-container a:nth-child(2) {
   background: var(--global-color-0);
   color: white;
-}
-
-@media screen and (max-width: 920px) {
-  .intro .container > h1 {
-    font-size: 4vmax;
-  }
 }
 
 @media screen and (max-width: 800px) {

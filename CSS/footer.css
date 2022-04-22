@@ -1,0 +1,43 @@
+:root {
+  --global-color-0: #075aae;
+  --global-color-1: #067ae0;
+  --global-color-2: #f4f6f6;
+}
+
+footer .help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--global-color-0);
+  color: white;
+  padding: 6vmax 4vmax 8vmax 4vmax;
+}
+
+footer h2 {
+  width: 660px;
+  font-weight: 400;
+  text-align: center;
+}
+
+footer .copyright-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--global-color-2);
+  padding: 2rem;
+}
+
+footer .copyright-container div {
+  max-width: 1080px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 540px) {
+  footer .copyright-container div {
+    flex-direction: column;
+  }
+}
