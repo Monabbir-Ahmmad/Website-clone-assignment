@@ -37,7 +37,7 @@
 
 .testimonial .container {
   flex: 1;
-  max-width: 600px;
+  max-width: 520px;
   display: flex;
   flex-direction: column;
   color: var(--global-color-2);

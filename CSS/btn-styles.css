@@ -1,0 +1,45 @@
+:root {
+  --global-color-0: #075aae;
+  --global-color-1: #067ae0;
+  --global-color-2: #f4f6f6;
+
+  --btn-fz: clamp(0.85rem, 1vmax + 0.2rem, 1rem);
+}
+
+.link-btn-style-1 {
+  width: fit-content;
+  padding: 1.1rem 2.2rem;
+  background: var(--global-color-0);
+  color: white;
+  text-align: center;
+  font-size: var(--btn-fz);
+  transition: all 500ms ease;
+}
+
+.link-btn-style-2 {
+  width: fit-content;
+  padding: 1.1rem 2.2rem;
+  background: var(--global-color-2);
+  color: var(--global-color-0);
+  text-align: center;
+  font-size: var(--btn-fz);
+  transition: all 500ms ease;
+}
+
+.link-btn-style-3 {
+  width: fit-content;
+  padding: 1.1rem 2.2rem;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  font-size: var(--btn-fz);
+  transition: all 500ms ease;
+}
+
+.link-btn-style-1:hover {
+  background: var(--global-color-1);
+}
+
+.link-btn-style-2:hover {
+  background: white;
+}

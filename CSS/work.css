@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 20px;
+  padding: 5rem 1.5rem;
 }
 
 .work .container {
@@ -16,25 +16,25 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 1080px;
+  max-width: 1100px;
   width: 100%;
-  gap: 1.8rem;
+  gap: 1.5rem;
 }
 
 .work > .container > h2 {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .work > .container > p {
   max-width: 510px;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .work .item-container {
   width: 100%;
   display: flex;
-  gap: 1.8rem;
+  gap: 1.5rem;
 }
 
 .work .item {
@@ -42,7 +42,7 @@
   background: var(--global-color-0);
   display: flex;
   flex-direction: column;
-  padding: 70px 50px;
+  padding: 4.5rem 3.2rem;
   gap: 2.5rem;
   color: white;
 }
@@ -56,21 +56,13 @@
 .work .item p {
   text-align: left;
   word-wrap: break-word;
-  margin-bottom: 20px;
-}
-
-.work .item a {
-  width: fit-content;
-  padding: 1rem 2rem;
-  border: 1px solid white;
-  color: white;
 }
 
 .work .service-container {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
-  gap: 1.8rem;
+  gap: 1.5rem;
 }
 
 .work .service-item-wrapper {
@@ -78,7 +70,7 @@
   display: flex;
   flex-direction: row-reverse;
   background: var(--global-color-2);
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 .work .service-item {
@@ -86,26 +78,19 @@
   background: var(--global-color-2);
   display: flex;
   flex-direction: column;
-  padding: 70px 50px;
+  padding: 4.5rem 3.2rem;
   gap: 2.5rem;
   color: black;
 }
 
-.work .service-item a {
-  width: fit-content;
-  padding: 1rem 2rem;
-  background: var(--global-color-0);
-  color: white;
-}
-
 .work .service-item-wrapper img {
-  width: 165px;
+  width: 10.5rem;
   align-self: end;
 }
 
 @media screen and (max-width: 770px) {
   .work {
-    padding: 20px;
+    padding: 1.5rem;
   }
 
   .work .item-container,
@@ -115,7 +100,7 @@
   }
 
   .work .service-item:first-child {
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
   }
 
   .work .service-item-wrapper img {

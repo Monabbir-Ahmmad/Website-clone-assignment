@@ -9,7 +9,7 @@ header {
 }
 
 nav {
-  max-width: 1080px;
+  max-width: 1100px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -19,18 +19,18 @@ nav {
 }
 
 #logo {
-  max-width: 238px;
-  margin: 16px;
+  max-width: 14.85rem;
+  margin: 1rem;
 }
 
 #nav-menu {
   display: flex;
-  margin: 16px;
+  margin: 1rem;
 }
 
 .nav-link {
   text-decoration: none;
-  padding: 16px;
+  padding: 1rem;
   color: black;
 }
 
@@ -42,15 +42,15 @@ nav {
 #hamburger {
   display: none;
   position: absolute;
-  right: 24px;
-  top: 32px;
+  right: 1.5rem;
+  top: 2rem;
   cursor: pointer;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 5px;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   background-color: var(--global-color-0);
 }
 
@@ -89,7 +89,6 @@ nav {
 
   .nav-link {
     border-top: 1px solid rgb(210, 210, 210);
-    padding: 16px 20px;
   }
 
   #nav-menu.open {

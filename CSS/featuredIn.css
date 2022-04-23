@@ -9,21 +9,16 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 20px;
-  gap: 1em;
+  padding: 1.5rem;
+  gap: 1rem;
   background: var(--global-color-2);
-}
-
-.featured-in h3 {
-  font-size: 20px;
-  font-weight: 500;
 }
 
 .featured-in div {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   place-items: center;
-  margin: 2em;
+  margin: 2rem;
 }
 
 @media screen and (max-width: 950px) {

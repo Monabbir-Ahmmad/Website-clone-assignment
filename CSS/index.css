@@ -14,12 +14,12 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: clamp(1.875rem, 3vmax + 1vmin, 3.75rem);
   font-weight: 500;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: clamp(1.57rem, 2.5vmax, 2.5rem);
   font-weight: 500;
 }
 
@@ -30,14 +30,4 @@ h3 {
 
 p {
   line-height: 1.7;
-}
-
-@media screen and (max-width: 920px) {
-  h1 {
-    font-size: 35px;
-  }
-
-  h2 {
-    font-size: 25px;
-  }
 }

@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   background: var(--global-color-2);
-  padding: 8vmax 20px;
+  padding: 8vmax 1.5rem;
 }
 
 .story .wrapper {
@@ -40,20 +40,9 @@
   max-width: 100%;
 }
 
-.story .container a {
-  width: fit-content;
-  padding: 1rem 2rem;
-  background: var(--global-color-0);
-  color: white;
-}
-
-.story .container a:hover {
-  background: var(--global-color-1);
-}
-
 @media screen and (max-width: 768px) {
   .story {
-    padding: 20px;
+    padding: 1.5rem;
   }
 
   .story .wrapper {
